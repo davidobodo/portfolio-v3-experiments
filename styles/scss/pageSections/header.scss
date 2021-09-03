@@ -1,0 +1,23 @@
+header {
+    background-color: #061124;
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text-section {
+        margin-right: 50px;
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .image-section {
+        height: 600px;
+        width: 600px;
+        background-color: $yellow;
+    }
+}

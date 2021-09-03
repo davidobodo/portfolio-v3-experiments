@@ -1,0 +1,10 @@
+@import "variables";
+@import "global";
+
+@import "pageSections/nav";
+@import "pageSections/header";
+@import "pageSections/body";
+@import "pageSections/projects.scss";
+@import "pageSections/footer.scss";
+
+@import "components/buttons";
