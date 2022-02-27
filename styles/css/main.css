@@ -30,13 +30,16 @@ nav {
       justify-content: space-between;
       align-items: center;
       padding: 0px 100px;
-      height: 70px; } }
+      height: 70px;
+      max-width: 1440px;
+      margin: auto; } }
   nav ul {
     display: flex;
     text-decoration: none;
     list-style: none; }
     nav ul li {
-      padding: 0px 20px; }
+      padding: 0px 20px;
+      cursor: pointer; }
 
 header {
   background-color: #061124;
