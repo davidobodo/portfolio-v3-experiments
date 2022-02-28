@@ -6,7 +6,7 @@
     --white: #ffffff;
     --dark: #1a1c23;
     --secondary: #3b3a51;
-    --purple: #6d59a8;
+    --purple: hsl(255, 31%, 50%);
     --tertiary: #23252f;
 }
 html {
@@ -15,8 +15,15 @@ html {
     font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,
         BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+
 body {
     background-color: #23252f;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 //-------------------------------------------
 //Typography
@@ -31,12 +38,6 @@ a {
 
 p {
     font-size: 1.6rem;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
 }
 
 nav {
