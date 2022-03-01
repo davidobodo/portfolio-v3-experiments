@@ -1,0 +1,76 @@
+:root {
+  --cream: #e5e5e5;
+  --black: #000;
+  --max-width: 1440px;
+  --orange: rgba(239, 95, 99, 1);
+  --darkAsh: rgba(105, 105, 105, 0.8); }
+
+html {
+  font-size: 62.5%;
+  font-family: Circular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.inner {
+  margin: auto;
+  max-width: var(--max-width); }
+
+.banner {
+  height: 40vh; }
+
+.projects {
+  background-color: #f7f7f7; }
+  .projects .inner {
+    padding: 10rem 2.5rem; }
+    .projects .inner nav {
+      margin-bottom: 6rem; }
+      .projects .inner nav a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        margin-right: 2rem;
+        color: var(--black); }
+        .projects .inner nav a:first-child {
+          color: var(--orange); }
+    .projects .inner .single-projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 12.8rem; }
+      .projects .inner .single-projects .quote {
+        margin: 9.6rem 0px;
+        width: 40rem; }
+        .projects .inner .single-projects .quote p {
+          font-size: 2.4rem;
+          font-family: "Nanum Myeongjo", serif;
+          line-height: 42.25px;
+          margin-bottom: 1.6rem; }
+        .projects .inner .single-projects .quote cite {
+          font-size: 1.6rem;
+          font-style: normal; }
+          .projects .inner .single-projects .quote cite span {
+            color: #afafaf; }
+      .projects .inner .single-projects .single-project {
+        margin-bottom: 10rem;
+        -webkit-column-break-inside: avoid;
+        /* Chrome, Safari, Opera */
+        page-break-inside: avoid;
+        /* Firefox */
+        break-inside: avoid;
+        /* IE 10+ */ }
+        .projects .inner .single-projects .single-project__image {
+          background-color: #000;
+          background-size: cover;
+          background-position: center;
+          height: 40rem;
+          margin-bottom: 2.4rem; }
+        .projects .inner .single-projects .single-project__title {
+          font-size: 2.6rem;
+          margin-bottom: 1.4rem;
+          font-weight: 600; }
+        .projects .inner .single-projects .single-project__text {
+          font-size: 1.8rem;
+          color: var(--darkAsh); }
+
+/*# sourceMappingURL=styles.css.map */

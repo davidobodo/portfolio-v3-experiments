@@ -1,0 +1,109 @@
+:root {
+    --cream: #e5e5e5;
+    --black: #000;
+    --max-width: 1440px;
+    --orange: rgba(239, 95, 99, 1);
+    --darkAsh: rgba(105, 105, 105, 0.8);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Circular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue,
+        Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    // font-family: "Ubuntu", sans-serif;
+}
+
+.inner {
+    margin: auto;
+    max-width: var(--max-width);
+}
+
+.banner {
+    height: 40vh;
+}
+
+.projects {
+    // background-color: var(--cream);
+    background-color: rgba(247, 247, 247, 1);
+
+    .inner {
+        padding: 10rem 2.5rem;
+
+        nav {
+            margin-bottom: 6rem;
+
+            a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                margin-right: 2rem;
+                color: var(--black);
+
+                &:first-child {
+                    color: var(--orange);
+                }
+            }
+        }
+        .single-projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 12.8rem;
+
+            .quote {
+                margin: 9.6rem 0px;
+                width: 40rem;
+
+                p {
+                    font-size: 2.4rem;
+                    font-family: "Nanum Myeongjo", serif;
+                    line-height: 42.25px;
+                    margin-bottom: 1.6rem;
+                }
+
+                cite {
+                    font-size: 1.6rem;
+                    font-style: normal;
+
+                    span {
+                        color: rgb(175, 175, 175);
+                    }
+                }
+            }
+
+            .single-project {
+                margin-bottom: 10rem;
+                -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+                page-break-inside: avoid; /* Firefox */
+                break-inside: avoid; /* IE 10+ */
+
+                &__image {
+                    background-color: #000;
+                    background-size: cover;
+                    background-position: center;
+                    height: 40rem;
+                    margin-bottom: 2.4rem;
+                    // width: 35rem;
+                }
+
+                &__title {
+                    font-size: 2.6rem;
+                    margin-bottom: 1.4rem;
+                    font-weight: 600;
+                }
+
+                &__text {
+                    font-size: 1.8rem;
+                    color: var(--darkAsh);
+                }
+            }
+        }
+    }
+}
