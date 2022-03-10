@@ -1,0 +1,42 @@
+:root {
+  --cream: #e5e5e5;
+  --black: #000;
+  --max-width: 1440px;
+  --orange: rgba(239, 95, 99, 1);
+  --darkAsh: rgba(105, 105, 105, 0.8);
+  --lightAsh: #f9f7f6;
+  --darkBlue: #031926; }
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header {
+  height: 100vh;
+  background-color: #ff4d00;
+  padding: 0px 3vw;
+  padding-top: 30vh;
+  position: relative; }
+  header .name-wrapper {
+    position: relative;
+    z-index: 2; }
+    header .name-wrapper .name {
+      font-size: 10.5vw;
+      text-transform: uppercase; }
+      header .name-wrapper .name:nth-child(2) {
+        padding-left: 12vw; }
+  header .pics {
+    width: 25vmax;
+    height: 60vmin;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(0px, -50%);
+    top: 50%; }
+
+/*# sourceMappingURL=styles.css.map */
