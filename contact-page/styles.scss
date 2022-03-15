@@ -1,0 +1,86 @@
+:root {
+    --gray: #f4f3f1;
+    --white: #fff;
+    --gray2: hsla(0, 0%, 100%, 0.3);
+    --gray3: #161616;
+}
+
+@font-face {
+    font-family: ivymodenormal;
+    src: url(../fonts/ivy-mode/IvyMode-Regular.ttf);
+}
+@font-face {
+    font-family: sweetsans;
+    src: url(../fonts/sweet-sans/SweetSansProRegular.otf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: var(--gray3);
+    display: flex;
+    align-items: flex-end;
+    padding: 5vw;
+}
+
+.info-wrapper {
+    display: flex;
+    // justify-content: space-between;
+    width: 100%;
+
+    &__big-text {
+        font-size: 18vw;
+        color: var(--white);
+        font-family: ivymodenormal;
+        text-transform: uppercase;
+        line-height: 0.8;
+        width: 75%;
+    }
+
+    &__details {
+        .row {
+            margin-bottom: 4.4rem;
+
+            &:first-child {
+                p {
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+            }
+
+            &:last-child {
+                p {
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 1.14vw;
+                    font-weight: 400;
+                    line-height: 32px;
+                }
+            }
+
+            h5 {
+                color: var(--gray2);
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+                font-size: 0.72917vw;
+                font-family: sweetsans;
+            }
+
+            p {
+                color: var(--white);
+                font-size: 1.4rem;
+                font-size: 0.78125vw;
+                font-family: sweetsans;
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Padauk", sans-serif; }
+
+.about-page {
+  background-color: #000;
+  color: #fff; }
+
+.name-wrapper {
+  margin-left: 10vw;
+  margin-top: 10vh;
+  position: fixed; }
+  .name-wrapper h1 {
+    font-size: 6vw;
+    font-weight: 800;
+    letter-spacing: -7px;
+    font-family: "Fredoka", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif; }
+  .name-wrapper p {
+    font-size: 1.8rem; }
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 14vh;
+  padding-right: 10vw; }
+  .content__details__section {
+    margin-bottom: 4rem; }
+    .content__details__section h2 {
+      font-size: 2.4rem;
+      margin-bottom: 2.4rem;
+      text-transform: uppercase;
+      font-style: italic; }
+    .content__details__section p {
+      font-size: 1.6rem; }
+    .content__details__section__body {
+      padding-left: 1.6rem; }
+    .content__details__section.who-we-are .content__details__section__body p {
+      margin-bottom: 1.4rem; }
+    .content__details__section.our-crews .content__details__section__body .row, .content__details__section.company-profile .content__details__section__body .row {
+      margin-bottom: 2rem; }
+      .content__details__section.our-crews .content__details__section__body .row h5, .content__details__section.company-profile .content__details__section__body .row h5 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #888888; }
+
+.img-bg {
+  height: 60vh;
+  background-image: url("https://images.unsplash.com/photo-1492138786289-d35ea832da43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*# sourceMappingURL=styles.css.map */
