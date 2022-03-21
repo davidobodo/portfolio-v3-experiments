@@ -2,9 +2,9 @@
 
 console.log("hello");
 let observerConfig = {
-    root: document.querySelector(".img-wrapper"),
-    rootMargin: "0px",
-    threshold: 1.0
+    root: null,
+    rootMargin: "0px"
+    // threshold: 0.5
 };
 
 const observerFn = (entries, observer) => {
